@@ -56,7 +56,8 @@ discussions, and meetings and create a small team to discuss potential
 structural changes to be shared with the community.  This document is
 the result of that effort.
 
-The DNS@IETF recommendation small team reviewed all materials
+The DNS@IETF recommendation small team (which consisted of Wes
+Hardaker, Joe Abley and Lars-Johan Liman) reviewed all materials
 collected in the fall of 2025 about how respondents thought about the
 effectiveness of DNS related WGs.  Material reviewed (118 pages)
 included relevant e-mail, notes, WG/Area recordings. After review, the
