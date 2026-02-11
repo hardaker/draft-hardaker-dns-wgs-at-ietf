@@ -101,8 +101,8 @@ Based on the findings above, and extrapolating information from discussions to d
 
 - Create a new DNSPROT or similar group for working on protocol development and maintenance.
   - This group should have a fairly wide charter that tasks it with work on the DNS protocol itself.
-  - Things requiring special processing rules likely belong in DNSDEV
-  - Documentation about protocol semantics should be in DNSDEV
+  - Things requiring special processing rules likely belong in DNSPROT
+  - Documentation about protocol semantics should be in DNSPROT
 - Create a new DNSDEP or similar group for working on protocol deployment and operational concerns.  \[Really need a better new name\]
   - This group should have a fairly wide charter that tasks it with work that doesn’t require special processing rules, needs algorithms or other simple IANA actions, or are BCPs that document existing behaviours.
   - Examples include algorithm assignments, IANA actions, BCPs, etc.
@@ -113,7 +113,7 @@ Based on the findings above, and extrapolating information from discussions to d
   - Some work already in progress in DNSOP could move to DNSPROT or DNSDEP where work would continue, at the discretion of the authors and chairs
 - Create a DNSDISPATCH group for providing guidance to authors about where new DNS work should be conducted.
   - To avoid introducing delays and agenda constraints, this group should conduct its work almost entirely over a mailing list with only difficult cases requiring interim or, worst case, in-person meeting time. Ideally, in-person meetings should be rare.
-  - DNSDISPATCH can recommend dispatching work to dnsdev/dnsops/AD-sponsored/another-WG/BOF/ISE.
+  - DNSDISPATCH can recommend dispatching work to dnsprot/dnsdep/AD-sponsored/another-WG/BOF/ISE.
   - DNSDISPATCH may decline to provide a recommendation for documents that are not within scope, for example.
   - Chairs of the group need to be strict in enforcing and carrying out its objective.
   - The DNSDISPATCH group will not prioritize work within the other groups, and its dispatch decisions cannot result in automatic adoption.
