@@ -99,11 +99,11 @@ recommendations ({{recommendations}}).
 
 Based on the findings above, and extrapolating information from discussions to derive a suitable path forward, the DNS@IETF small team recommends that the area directors considering the following advice:
 
-- Create a new DNSPROT or similar group for working on protocol development and maintenance.
+- Create a new DNSPROT (DNS Protocol) or similar group for working on protocol development and maintenance.
   - This group should have a fairly wide charter that tasks it with work on the DNS protocol itself.
   - Things requiring special processing rules likely belong in DNSPROT
   - Documentation about protocol semantics should be in DNSPROT
-- Create a new DNSDEP or similar group for working on protocol deployment and operational concerns.  \[Really need a better new name\]
+- Create a new DNSDEP (DNS Deployment) or similar group for working on protocol deployment and operational concerns.  \[Really need a better new name\]
   - This group should have a fairly wide charter that tasks it with work that doesn’t require special processing rules, needs algorithms or other simple IANA actions, or are BCPs that document existing behaviours.
   - Examples include algorithm assignments, IANA actions, BCPs, etc.
   - “How you use the protocol”
