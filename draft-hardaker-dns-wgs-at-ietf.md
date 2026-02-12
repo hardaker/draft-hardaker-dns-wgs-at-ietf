@@ -50,11 +50,12 @@ the result of that effort.
 
 There has been an increasing level of discussion within the IETF about
 the best Working Group (WG) structures for handling the wide array of
-DNS work being conducted within the IETF.  Wes Hardaker was asked to
+DNS work being conducted within the IETF.  Wes Hardaker was askedto
 gather information from the community at large through email, hallway
 discussions, and meetings and create a small team to discuss potential
-structural changes to be shared with the community.  This document is
-the result of that effort.
+structural changes to be shared with the community.  See
+{{announcement}} for the announcement. This document is the result of
+that effort.
 
 The DNS@IETF recommendation small team (which consisted of Wes
 Hardaker, Joe Abley and Lars-Johan Liman) reviewed all materials
@@ -210,3 +211,105 @@ this problem space.
 A significant number of people offered their opinions on this subject
 and we greatly appreciate everyone's time, energy and desire to help
 the IETF be as efficient as possible in the DNS space.
+
+# Original project announcement {#announcement}
+{:numbered="false"}
+
+The following text is the announcement about this opinion collection
+project that was sent to various DNS IETF lists on 2025-10-06 by
+Mohamed Boucadair in his role as the opsarea AD.
+
+``` text
+
+From: mohamed.boucadair@orange.com
+Subject: Kick-off DNS work structure consultation
+Date: Mon, 06 October 2025 07:49 UTC
+
+Hi DNSOP, all,
+(+ all concerned WGs: opsawg, intarea, deleg, dnssd, add, dconn, regext)
+
+Background
+
+As you know, DNS-related activities in the IETF are wide, affecting many other protocols within the IETF's standardization efforts. Because of this, the DNS and its adjacent work is carried out in a wide number of WGs and even areas (INT, OPS, ART).
+
+Currently, DNSOP is acting as the central hub for much of the core DNS work and has been for the past decade or more (and prior to that in DNSEXT as well). But, the full history of the slowly evolving structure of the DNS related WGs is beyond the scope of this message (although certainly the lessons learned from the changing structure over time remain important to consider).
+
+Recently there has been a flurry of hallway discussions about whether the current DNS-related WGs structures are working as efficiently as possible, and whether it is time to make some changes about where recommended DNS related work gets dispatched to and subsequently developed in. It may be that change is needed. It may be that no change is needed. However, it has become clear that a discussion needs to happen, and the results of that community discussion should drive any change to be implemented. See also the provisions about this discussion in the recent DNSOP Charter [1].
+
+As indicated in my message [2], and now that the first intermediate DNSOP chartering step is done, we want to hear from everyone about what is working, and what is not, with the current structure of DNS WGs. What are the requirements for creating the most optimal work environment? Specifically, should the current DNSOP structure be maintained, modified, etc.?
+
+Mission
+
+The main goals of this effort are as follows:
+
+* Provide an overview of current IETF DNS landscape & interactions
+* List issues/features with the current work structure
+* Propose options to soften/mitigate the issues
+* Sketch a transition plan
+* Propose Charter(s) (New and/or Updates to existing ones)
+
+Task leader, team, and Call for Feedback
+
+In order to avoid impacting ongoing DNSOP work and given the load the DNSOP Chairs already experience, I decided that this discussion is better moderated by other community members than the DNSOP WG Chairs.
+
+I'm delighted to announce that Wes Hardaker has agreed to collect information from the community to help me, other ADs/IESG decide what the best path forward is.
+
+Wes and a small team will gather the thoughts and opinions of those working on the DNS within the IETF and distill them down to a set of recommendations for the IESG about whether the community believes that structural changes are needed or not and, if so, to what existing or new charters.
+
+To accomplish this, we need help from the community. Specifically, we want feedback from everyone with an opinion on the subject (including from those who think "everything is fine as is").
+
+Below is provided a list of sample questions that are worth considering (thanks Wes for the inputs), but opinions of any sort on the subject are welcome.  Note that though Wes has his own opinions, he intends to only collect information from the community and will only respond with an acknowledgment and maybe follow on questions, if needed. Wes is willing to meet with anyone wanting to discuss this during IETF#124 in person or over a virtual meeting before hand.
+
+After thoughts, opinions, and suggestions are collected from the community, Wes will be convening a small discussion team of interested parties to help review the collected material. If you're interested in helping on the review and recommendation team, please let Wes know. Responsible ADs, with Wes help, will decide on the small team membership later this year.
+
+A timeline is included below detailing the course of events over the next 6 months.
+
+Mailing List to collect feedback & discuss
+
+A new mailing is created to collect public opinions and discussion: dns-at-ietf@ietf.org<mailto:dns-at-ietf@ietf.org>.
+
+If you have opinions you don't want to share publicly, please send them to dns-structure-anon@hardakers.net<mailto:dns-structure-anon@hardakers.net> or to me and Wes or only to me and I will anonymize them before bringing them to the discussion team.
+
+Information to be gathered
+
+- How do we deal with the quantity of work that approaches DNSOP or similar?
+- Is one overarching group like DNSOP good, or do we need an
+  ops/protocol split like DNSOP and DNSEXT were in the past
+    - and how do we ensure WGs/Chairs communicate and collaborate efficiently?
+- What is the right combination of operational vs protocol maintenance group(s)?
+- How to make sure that new work takes into account operational and deployment considerations?
+- How do we dispatch new work coming into the IETF related to the DNS protocol?
+    * DNSOP did this for the past few years.
+    * Should small, contained proposals generally be dispatched to OPSAWG or similar?
+    * Do we need a DNSDISPATCH group or leverage DISPATCH WG?
+    * What is the right balance between a bunch of small groups vs one or a couple larger ones?
+    * How to address different problem spaces and attract interested people?
+    * What is the overhead on the participants that need to attend all these meetings?
+    * How do we ensure there is enough expertise available?
+- How do we ensure that there is sufficient support for things that are adopted (before they're adopted)?
+- Do we have an over-arching policy for requiring running code/deployment(-promises) first, or is it per-WG?
+- Is the current split between mDNS/EPP/RDAP/RPP, and full DNS working well?
+- What should change?
+- What shouldn't change?
+
+Timeline
+
+| Event                                          | Expected Ends|
+|------------------------------------------------+--------------|
+| OPSAREA Session discussion                     | IETF#124     |
+| Collect feedback, suggestions, etc.            | Nov 31       |
+| Analysis team craft recommendation(s)          | Jan 2026     |
+| Team recommendations given to the community    | Feb 2026     |
+| Analysis team meets with IESG members          | Feb 2026     |
+| IESG announces plans                           | IETF#125     |
+
+
+Thank you
+
+Cheers,
+Med
+
+[1]: https://datatracker.ietf.org/doc/charter-ietf-dnsop/
+
+[2]: https://mailarchive.ietf.org/arch/msg/dnsop/9aztqcxfpgCEkhQT3LGxkWuMui8/
+```
