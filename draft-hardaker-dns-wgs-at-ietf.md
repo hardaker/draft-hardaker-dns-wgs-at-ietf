@@ -189,6 +189,10 @@ scenarios to highlight how we envision some workflows might happen.
   - Some believe operational groups like DNS-OARC should drive BCP development.
   - There is rough consensus that publication of BCPs should remain in the IETF.
   - It may be that interim meetings held in conjunction with external conferences would be a good idea.
+- Although a few people did suggest splitting the main DNS groups into
+  three or more groups, most of the feedback received indicated that
+  two primary groups would be sufficient.  Furthermore, some people
+  offered opinions that more than two would impose additional complications.
 
 # Security Considerations {#security}
 
