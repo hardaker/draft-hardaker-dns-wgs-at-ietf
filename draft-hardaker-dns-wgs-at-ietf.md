@@ -79,7 +79,7 @@ The small team found some clear points of consensus points within the
 collected opinions.  These findings were later distilled into
 recommendations ({{recommendations}}).
 
-- A DNSDISPATCH mechanism would be beneficial for deciding where and how new work should be formed.
+- A separated DNSDISPATCH mechanism would be beneficial for deciding where and how new work should be formed.
   - Working groups can then concentrate on the work they are chartered for.
   - Followers know where to follow new works of interest.
   - A downside is a potential slow down of new work, and an increase in agenda time.
@@ -112,7 +112,8 @@ Based on the findings above, and extrapolating information from discussions to d
 - Work toward closing DNSOP in order to properly signal the change
   - Keep it open and functional until all current work is finished
   - Some work already in progress in DNSOP could move to DNSPROT or DNSDEP where work would continue, at the discretion of the authors and chairs
-- Create a DNSDISPATCH group for providing guidance to authors about where new DNS work should be conducted.
+- Create a DNSDISPATCH working group for providing guidance to authors about where new DNS work should be conducted.
+  - This will aleviate the current DNSOP WG from needing to fullfil this role in.
   - To avoid introducing delays and agenda constraints, this group should conduct its work almost entirely over a mailing list with only difficult cases requiring interim or, worst case, in-person meeting time. Ideally, in-person meetings should be rare.
   - DNSDISPATCH can recommend dispatching work to dnsprot/dnsdep/AD-sponsored/another-WG/BOF/ISE.
   - DNSDISPATCH may decline to provide a recommendation for documents that are not within scope, for example.
