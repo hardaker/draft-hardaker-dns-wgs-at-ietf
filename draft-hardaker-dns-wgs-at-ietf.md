@@ -1,6 +1,6 @@
 ---
-title: "Community consensus report on DNS WG structures at IETF"
-abbrev: "Community consensus report on DNS WGs"
+title: "Community considerations on DNS WG structures at IETF"
+abbrev: "Community considerations on DNS WGs"
 category: info
 
 docname: draft-hardaker-dns-wgs-at-ietf-latest
@@ -62,12 +62,13 @@ Hardaker, Joe Abley and Lars-Johan Liman) reviewed all materials
 collected in the fall of 2025 about how respondents thought about the
 effectiveness of DNS related WGs.  Material reviewed (118 pages)
 included relevant e-mail, notes, WG/Area recordings. After review, the
-small team met multiple times in early 2026 to extract consensus and
-recommendations to offer the DNS community and the IESG.
+small team met multiple times in early 2026 to extract opinion
+commonality and recommendations to offer the DNS community and the
+IESG.
 
 This document describes the small team’s findings, recommendations, as
-well as some topics where we did not find consensus or where we
-identified topics for future consideration.
+well as some topics where we did not find opinion commonality or where
+we identified topics for future consideration.
 
 Note: we use a few new working group names below, but recognize both
 these recommendations and these not-yet-existing working group names
@@ -75,9 +76,9 @@ are subject to change and thus should be considered placeholders.
 
 # Findings
 
-The small team found some clear points of consensus points within the
-collected opinions.  These findings were later distilled into
-recommendations ({{recommendations}}).
+The small team found some clear points within the collected opinions.
+These findings were later distilled into recommendations
+({{recommendations}}).
 
 - A separated DNSDISPATCH mechanism would be beneficial for deciding where and how new work should be formed.
   - Working groups can then concentrate on the work they are chartered for.
@@ -180,7 +181,7 @@ scenarios to highlight how we envision some workflows might happen.
    document with the DNSDEP chairs, including a reference to the
    DISDISPATCH recommendation.
 
-## Suggestions that achieved no or only fairly rough consensus
+## Suggestions that did not necessarily have common agreement
 
 - Always requiring running code.
   - Running code before adoption definitely did not have consensus.
@@ -188,7 +189,7 @@ scenarios to highlight how we envision some workflows might happen.
   - Based on this, we believe each group will need to make their own decision on this matter as suggested above.
 - BCP documentation is an open question about where best to develop them.
   - Some believe operational groups like DNS-OARC should drive BCP development.
-  - There is rough consensus that publication of BCPs should remain in the IETF.
+  - There is a general opinion that publication of BCPs should remain in the IETF.
   - It may be that interim meetings held in conjunction with external conferences would be a good idea.
 - Although a few people did suggest splitting the main DNS groups into
   three or more groups, most of the feedback received indicated that
