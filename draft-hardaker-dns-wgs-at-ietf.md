@@ -105,7 +105,7 @@ Based on the findings above, and extrapolating information from discussions to d
   - This group should have a fairly wide charter that tasks it with work on the DNS protocol itself.
   - Things requiring special processing rules likely belong in DNSPROT
   - Documentation about protocol semantics should be in DNSPROT
-- Create a new DNSDEP (DNS Deployment) or similar group for working on protocol deployment and operational concerns.  \[Really need a better new name\]
+- Create a new DNSDEP (DNS Deployment), DNSOPS or similar group for working on protocol deployment and operational concerns.
   - This group should have a fairly wide charter that tasks it with work that doesn’t require special processing rules, needs algorithms or other simple IANA actions, or are BCPs that document existing behaviours.
   - Examples include algorithm assignments, IANA actions, BCPs, etc.
   - “How you use the protocol”
