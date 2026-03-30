@@ -86,7 +86,8 @@ are further defined in the rest of the document.
   of the DNS protocol features itself.
 
 - DNSDEP: A working group dedicated to developing documents related to
-  the deployment of the DNS protocol.
+  the deployment of the DNS protocol.  Note that in discussions, some
+  believe this should be called DNSOP still or potentially DNSOPS.
 
 - DNSDISPATCH: A working group dedicated to recommending where new DNS
   proposals should be directed for potential adoption.
@@ -133,8 +134,8 @@ recommendations section.
   - WG chairs need to be supported in handling these situations.
   - WG chairs MUST coordinate within their own groups and between
     their group and other related groups.  Collaboration needs to
-    occur between all DNS@IETF WGs and IESG ADs about all current DNS
-    topics of concern.
+    occur between all DNS@IETF WGs and IESG Area Directors (ADs) about
+    all current DNS topics of concern.
 - Narrowly chartered working groups are necessary for more challenging
   development problems.
   - DELEG and ADD were two examples referred to in discussions and
@@ -170,49 +171,106 @@ recommendations section.
   focused on applications and protocols that make use of the DNS
   protocol. Furthermore, some people offered opinions that more than
   two would impose additional complications.
+- There was general disagreement about whether or not to close the
+  existing DNSOP WG if new ones were formed, or whether it should be
+  rechartered in the process.
+  - Some believed that a clean break would be beneficial to signal the
+    change in structure.
+  - Others believed that DNSOP was already the right name and there
+    was no need to change it, aside from narrowing its charter.
 
 # Recommendations {#recommendations}
 
-Based on the findings above, and extrapolating information from discussions to derive a suitable path forward, the DNS@IETF small team recommends that the area directors considering the following advice:
+Based on the findings above ({{findings}}), the DNS@IETF small team
+extrapolated information from discussions to derive a set of suitable
+recommendations that the IESG ADs should consider:
 
-- Create a new DNSPROT (DNS Protocol) or similar group for working on protocol development and maintenance.
-  - This group should have a fairly wide charter that tasks it with work on the DNS protocol itself.
-  - Things requiring special processing rules likely belong in DNSPROT
-  - Documentation about protocol semantics should be in DNSPROT
-- Create a new DNSDEP (DNS Deployment), DNSOPS or similar group for working on protocol deployment and operational concerns.
-  - This group should have a fairly wide charter that tasks it with work that doesn’t require special processing rules, needs algorithms or other simple IANA actions, or are BCPs that document existing behaviours.
-  - Examples include algorithm assignments, IANA actions, BCPs, etc.
-  - “How you use the protocol”
-  - Alg roles, bcps, split horizon, zone cut to nowhere
-- Work toward closing DNSOP in order to properly signal the change
-  - Keep it open and functional until all current work is finished
-  - Some work already in progress in DNSOP could move to DNSPROT or DNSDEP where work would continue, at the discretion of the authors and chairs
-- Create a DNSDISPATCH working group for providing guidance to authors about where new DNS work should be conducted.
-  - This will aleviate the current DNSOP WG from needing to fullfil this role in.
-  - To avoid introducing delays and agenda constraints, this group should conduct its work almost entirely over a mailing list with only difficult cases requiring interim or, worst case, in-person meeting time. Ideally, in-person meetings should be rare.
-  - DNSDISPATCH can recommend dispatching work to dnsprot/dnsdep/AD-sponsored/another-WG/BOF/ISE.
-  - DNSDISPATCH may decline to provide a recommendation for documents that are not within scope, for example.
-  - Chairs of the group need to be strict in enforcing and carrying out its objective.
-  - The DNSDISPATCH group will not prioritize work within the other groups, and its dispatch decisions cannot result in automatic adoption.
-  - A significant portion of submissions to DNSDISPTACH can likely be handled quickly and efficiently.
-  - The DNSDISPATCH chairs should require that documents clearly articulate the problem space and proposed solution before consideration.
-  - The DNS directorate is a resource available to the DNSDISPATCH working group, just as it is available to other working groups.
-  - The dispatch group might use a pool of willing shepherds to assist the chairs and authors with process related help for incoming documents.
-  - The dispatch group will make informed recommendations to document authors about where to take their work
-    - The output of a dispatch discussion should include a short shepherd write up (perhaps a paragraph in length)
-      - Light weight write ups that are sent to the mailing list for archiving.  This should not require datatracker changes.
-      - DNSDISPATCH chairs should create a light template text as a boiler plate to be used by most cases.
-    - DNS WGs MAY require in their charter that new work first gets a dispatch suggestion before consideration in their WG.
-    - After a dispatch, document authors are encouraged to follow the recommendation and approach the WG chairs with a follow-on request (including but not limited to adoption requests).
-    - Each group will continue to follow its own processes for formal adoption.
-  - The chairs of the DNSDISPATCH group should work closely with the chairs of the other groups.  They may need to work together for handling more difficult topics and to collaborate on advice or questions for the DNSDISPATCH WG participants.
-- Group management is expected to be significantly different in each of these groups.
-  - With an effective split in functionality, it allows each group to have different forms of execution, meeting, progression, and publication requirement strategies.
-  - For example, some groups may require running code, while others may not.
-- Documents may occasionally (rarely we hope) need to move after being dispatched when the problem scope changes during its development and refinement.
-  - For example, problems that become large may need to move to a new group.
-  - Sometimes, however, the decision will be wrong but might as well stay in the current group.
-  - The area director and WG chairs will need to handle this (rare) problem on a case by case basis.
+- Create a new DNSPROT (DNS Protocol) or similar group for working on
+  protocol development and maintenance.
+  - This group should have a fairly wide charter that tasks it with
+    work on the DNS protocol itself.
+  - One potential recommendation for deciding whether things belong in
+    this group is whether or not the work was likely to develop
+    special processing rules.
+  - Documentation about protocol semantics should progress in DNSPROT.
+- Create a new DNSDEP (DNS Deployment) group for working on protocol
+  deployment and operational concerns.
+  - This group should have a fairly wide charter that tasks it with
+    work that doesn’t require special processing rules, needs
+    algorithms or other simple IANA actions, or are BCPs that document
+    existing behaviors.
+  - Work should include guidance documents about "How you use the
+    protocol".  Examples such as algorithm rollover guidance, BCPs, split
+    horizon considerations.
+- Create a DNSDISPATCH working group for providing guidance to authors
+  about where new DNS work should be conducted.
+  - This will alleviate the current DNSOP WG from needing to fulfill this role.
+  - To avoid introducing delays and agenda constraints (as discussed
+    in {{findings}}), this group should conduct its work almost
+    entirely over a mailing list.  Only the more complex or difficult
+    cases should require interim or, worst case, in-person meeting
+    time. Ideally, in-person meetings should be rare.
+  - A significant portion of submissions to DNSDISPTACH can likely be
+    handled quickly and efficiently.
+  - DNSDISPATCH can recommend dispatching work to any areas of the
+    IETF, including but not limited to DNSPROT, DNSDEP, AD-sponsored,
+    another-WG, a BOF, or the ISE.
+  - The DNSDISPATCH chairs should require that documents clearly
+    articulate the problem space and proposed solution before
+    consideration.
+  - DNSDISPATCH may decline to provide a recommendation for documents.
+    This would include documents not within scope of the IETF or were
+    not sufficiently mature to understand the problem or solution
+    space, for example.
+  - Chairs of the DNSDISPATCH group need to be strict in managing,
+    enforcing and carrying out its objective.
+  - The DNSDISPATCH group will not prioritize work within the other
+    groups, and its dispatch decisions cannot result in automatic
+    adoption.  Each group will continue to follow its own processes
+    for formal adoption.
+  - The DNS directorate will be a resource available to the
+    DNSDISPATCH working group, just as it is available to other
+    working groups.
+  - The DNSDISPATCH group might use a pool of willing shepherds to
+    assist the chairs and authors with process related help for
+    incoming documents.
+  - The dispatch group will make informed recommendations to authors
+     and document where they should take their work.
+      - The output of a dispatch discussion should include a short
+        shepherd write up (perhaps a paragraph in length)
+      - These should be light weight write ups that are sent to the
+        mailing list for archiving.  This should not require
+        datatracker changes.
+      - DNSDISPATCH chairs should create a light template as a boiler
+        plate to be used by most cases.
+  - DNS WGs MAY require, in their charter, that new work proposals
+    first get a dispatch suggestion before being considered in their
+    WG.
+  - After a dispatch recommendation, document authors are encouraged
+    to follow the recommendation and approach the relevant WG chairs,
+    AD, ISE, etc with a follow-on request (including but not limited
+    to adoption requests).
+  - The chairs of the DNSDISPATCH group should work closely with the
+    chairs of the other groups.  They may need to work together for
+    handling more difficult topics and to collaborate on advice or
+    questions for the DNSDISPATCH WG participants.
+- Group management may be significantly different in each of these
+  groups.
+  - With an effective split in functionality, each group may choose to
+    have different forms of execution, meeting, progression, and
+    publication requirement strategies.
+  - For example, some groups may require running code, while others
+    may not.
+- Documents may occasionally (hopefully rarely) need to move after
+  being dispatched when the problem or solution scope changes during
+  its development and refinement.
+  - For example, problems that become large may need to move to an
+    entirely new group.
+  - Sometimes, however, the dispatch and adoption location decision
+    might have been wrong, but might as well stay in the current
+    group.
+  - The area director and WG chairs will need to handle this (rare)
+    problem on a case by case basis.
 
 ## Example Dispatch Scenarios
 
