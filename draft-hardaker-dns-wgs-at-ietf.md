@@ -274,21 +274,21 @@ recommendations that the IESG ADs should consider:
 
 ## Example Dispatch Scenarios
 
-The small team recognized that some examples might be helpful in
-better understanding how the envisioned DNSDISPATCH group might
-process incoming work.  As such, we came up with three example
-scenarios to highlight how we envision some workflows might happen.
+The DNS@IETF small team recognized that some examples might be helpful
+in better understanding how the envisioned DNSDISPATCH group might
+process incoming work.  As such, we offer the following three example
+scenarios that highlight how dispatch workflows might happen.
 
 1. Maxwell Coulomb writes a document that describes a new way that DNS
    can be used by DHCP clients. They take this document to DNSDISPATCH
-   where, after some discussion including references to other
-   discussions in DHCP working groups, the chairs post a
+   where, after some discussion (including references to other
+   discussions in DHCP working groups), the chairs post a
    recommendation drawn from consensus to the list saying that in
    their opinion the best DNS working group for this document would be
    DNSDEP. Maxwell then approaches the DNSDEP chairs by sending a
-   message to the chairs that includes a link to the DNSDISPATCH
-   recommendation. The chairs review and decide that this is a good
-   candidate document for DNSDEP to consider and send a request for
+   message to the chairs that includes a mailing list archive link to
+   the DNSDISPATCH recommendation. The chairs review and decide that
+   this is a good candidate document for DNSDEP and send a request for
    comment to the DNSDEP mailing list.
 
 2. Marie Ampère writes a document that describes a new protocol for
@@ -297,7 +297,8 @@ scenarios to highlight how we envision some workflows might happen.
    take this document to DNSDISPATCH where, after some discussion, the
    chairs post a recommendation that this is not a good fit for any
    DNS working group since it does not really represent DNS-specific
-   work. Thus, the chairs decline to provide a recommendation.
+   work. Thus, the chairs draw a consensus that a dispatch
+   recommendation will not be provided.
 
 3. Marmaduke Nxdomain writes a document in response to some
    operational problems that have been discussed in another forum,
