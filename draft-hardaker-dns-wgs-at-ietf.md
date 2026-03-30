@@ -50,7 +50,7 @@ the result of that effort.
 
 There has been an increasing level of discussion within the IETF about
 the best Working Group (WG) structures for handling the wide array of
-DNS work being conducted within the IETF.  Wes Hardaker was askedto
+DNS work being conducted within the IETF.  Wes Hardaker was asked to
 gather information from the community at large through email, hallway
 discussions, and meetings and create a small team to discuss potential
 structural changes to be shared with the community.  See
@@ -59,22 +59,44 @@ that effort.
 
 The DNS@IETF recommendation small team (which consisted of Wes
 Hardaker, Joe Abley and Lars-Johan Liman) reviewed all materials
-collected in the fall of 2025 about how respondents thought about the
-effectiveness of DNS related WGs.  Material reviewed (118 pages)
-included relevant e-mail, notes, WG/Area recordings. After review, the
-small team met multiple times in early 2026 to extract opinion
-commonality and recommendations to offer the DNS community and the
-IESG.
+collected between September 2025 through March 2026 about what
+respondents thought about the effectiveness of the DNS related WGs
+within the IETF.  Material reviewed (118 pages) included relevant
+e-mail (both public and private), notes taken during discussions, and
+WG/Area recordings from IETF meeting proceeding archives. After
+review, the small team met multiple times in early 2026 to extract any
+commonality among the expressed opinions and developed recommendations
+based on them to offer the DNS community and the IESG.
 
-This document describes the small team’s findings, recommendations, as
-well as some topics where we did not find opinion commonality or where
-we identified topics for future consideration.
+This document describes the small team’s findings ({{findings}}),
+their derived recommendations ({{recommendations}}) and topics where
+the team did not find sufficient commonality within the collected
+opinions ({{noagreement}}).
 
-Note: we use a few new working group names below, but recognize both
+## Terminology
+
+The team use a few new working group names below, but recognize both
 these recommendations and these not-yet-existing working group names
-are subject to change and thus should be considered placeholders.
+are subject to change and thus should be considered placeholders.  It
+will be up to the IESG and the community to decide what groups and
+their names should actually be used.  These are terse definitions that
+are further defined in the rest of the document.
 
-# Findings
+- DNSPROT: A potential new working group dedicated to the development
+  of the DNS protocol features itself.
+  
+- DNSDEP: A working group dedicated to developing documents related to
+  the deployment of the DNS protocol.
+  
+- DNSDISPATCH: A working group dedicated to recommending where new DNS
+  proposals should be directed for potential adoption.
+
+- DNSOP: the still existing (in March 2026) DNSOP working group.  Note
+  that at the time this writing the current charter of the DNSOP
+  working group includes all of the tasks described above in the
+  DNSPROT, DNSDEP and DNSDISPATCH group.
+
+# Findings {#findings}
 
 The small team found some clear points within the collected opinions.
 These findings were later distilled into recommendations
@@ -181,7 +203,7 @@ scenarios to highlight how we envision some workflows might happen.
    document with the DNSDEP chairs, including a reference to the
    DISDISPATCH recommendation.
 
-## Suggestions that did not necessarily have common agreement
+## Suggestions that did not necessarily have common agreement {#noagreement}
 
 - Always requiring running code.
   - Running code before adoption definitely did not have consensus.
