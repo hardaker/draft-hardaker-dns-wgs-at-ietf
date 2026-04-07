@@ -377,7 +377,7 @@ the IETF be as efficient as possible in the DNS space.
 
 The following text is the announcement about this opinion collection
 project that was sent to various DNS IETF lists on 2025-10-06 by
-Mohamed Boucadair in his role as the opsarea AD.
+Mohamed Boucadair in his role as the OPS AD.
 
 ``` text
 
