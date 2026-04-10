@@ -120,7 +120,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 14 [RFC2119] [RFC8174] when, and only when, they appear in all
 capitals, as shown here.
 
-Although the document does not specify a protocol, the BCP14 is used
+Although the document does not specify a protocol, the {{BCP14}} is used
 to stress importance of some recommendations and for better clarity.
 
 # Findings {#findings}
