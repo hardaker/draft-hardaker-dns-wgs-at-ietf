@@ -32,6 +32,8 @@ author:
 
 normative:
   BCP14:
+  RFC2119:
+  RFC8174:
 
 informative:
   DNS-at-IETF:
