@@ -362,9 +362,10 @@ Abley) he corralled into helping him consume all of the review
 content, and for the insights they brought to the discussion about
 this problem space.
 
-A significant number of people offered their opinions on this subject
-and we greatly appreciate everyone's time, energy and desire to help
-the IETF be as efficient as possible in the DNS space.
+A significant number of people (too large to list here) offered their
+opinions on this subject and we greatly appreciate everyone's time,
+energy and desire to help the IETF be as efficient as possible in the
+DNS space.
 
 # Original project announcement {#announcement}
 
