@@ -32,8 +32,6 @@ author:
 
 normative:
   BCP14:
-  RFC2119:
-  RFC8174:
 
 informative:
   DNS-at-IETF:
@@ -116,12 +114,6 @@ document.
 
 ## Requirements language
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-"OPTIONAL" in this document are to be interpreted as described in BCP
-14 [RFC2119] [RFC8174] when, and only when, they appear in all
-capitals, as shown here.
-
 Although the document does not specify a protocol, the {{BCP14}} is used
 to stress importance of some recommendations and for better clarity.
 
@@ -163,7 +155,7 @@ recommendations section.
     common management issues and disagreements, for example.
   - This includes how and where work is handled in more nuanced cases.
   - WG chairs need to be supported in handling these situations.
-  - WG chairs MUST coordinate within their own WGs and between
+  - WG chairs will need to coordinate both within their own WGs and between
     their WG and other related WGs.  Collaboration needs to
     occur between all DNS@IETF WGs and IESG Area Directors (ADs) about
     all current DNS topics of concern.
