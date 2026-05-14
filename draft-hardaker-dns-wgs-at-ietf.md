@@ -42,15 +42,15 @@ informative:
 
 There has been an increasing level of discussion within the IETF about
 the best Working Group (WG) structures for handling the wide array of
-DNS work being conducted within the IETF.  As part of community
-consultation, a small team was asked to gather information from the
-community at large through e-mail, hallway discussions, and meetings
-and create a small team to discuss potential structural changes to be
-shared with the community.  This document aggregates the results of
-those engagements and crafts some recommendations about potential
-futures of DNS WG structures based on that feedback feedback.
+DNS work being conducted within the IETF.  Wes Hardaker was asked to
+gather information from the community at large through e-mail, hallway
+discussions, and meetings and create a small team to discuss potential
+structural changes to be shared with the community. This document
+describes the team’s aggregated findings, their derived
+recommendations, and topics where the team did not find sufficient
+commonality within the collected opinions.
 
-The outcome of the consultation is retained for historic reference.
+This document is published to retain the record for historic reference.
 
 --- middle
 
@@ -65,20 +65,20 @@ structural changes to be shared with the community.  See
 {{announcement}} for the announcement. This document is the result of
 that effort.  The main venue for this effort was [DNS-at-IETF].
 
-The DNS@IETF recommendation small team (which consisted of Wes
-Hardaker, Joe Abley and Lars-Johan Liman) reviewed all materials
-collected between September 2025 through March 2026 about what
-respondents thought about the effectiveness of the DNS related WGs
-within the IETF.  Material reviewed (118 pages) included relevant
-e-mail (both public and private), notes taken during discussions, and
-WG/Area recordings from IETF meeting proceeding archives. After
-review, the small team met multiple times in early 2026 to extract any
-commonality among the expressed opinions and developed recommendations
-based on them to offer the DNS community and the IESG.  The main
+The DNS@IETF recommendation team consisted of Wes Hardaker, Joe
+Abley and Lars-Johan Liman.  Together they reviewed all the feedback
+about what respondents thought about the effectiveness of
+the DNS related WGs within the IETF between September 2025 through
+March 2026.  Material reviewed (118 pages) included relevant e-mail
+(both public and private), notes taken during discussions, and WG/Area
+recordings from IETF meeting proceeding archives. After review, the
+team met multiple times in early 2026 to extract any commonality
+among the expressed opinions and developed recommendations based on
+them to offer the DNS community and the IESG.  The main
 recommendations were then reviewed and reported in IETF#125 (March
 2026).
 
-This document describes the small team’s findings ({{findings}}),
+This document describes the team’s findings ({{findings}}),
 their derived recommendations ({{recommendations}}) and topics where
 the team did not find sufficient commonality within the collected
 opinions ({{noagreement}}).
@@ -89,7 +89,7 @@ the future.
 
 ## Working Group Names Used In This Document
 
-The team uses a few new WG names below, but recognize both these
+The team uses a few new WG names below, but recognize that both these
 recommendations and these not-yet-existing WG names are subject to
 change and thus should be considered placeholders.  It is up to the
 IESG and the community to decide what WGs and their names should be
@@ -98,7 +98,7 @@ terse definitions that are further defined in the rest of the
 document.
 
 - DNSPROT: A potential new WG dedicated to the development
-  of the DNS protocol features itself.
+  of the DNS protocol features themselves.
 
 - DNSDEP: A WG dedicated to developing documents related to the
   deployment, and operation in general, of the DNS protocol.  Note
@@ -120,7 +120,7 @@ to stress importance of some recommendations and for better clarity.
 
 # Findings {#findings}
 
-The small team found some clear points within the collected opinions.
+The team found some clear points within the collected opinions.
 These findings are listed here and were later distilled into
 recommendations ({{recommendations}}).  Note that items listed here do
 not necessarily indicate unanimous agreement, but do reflect a
@@ -205,7 +205,7 @@ recommendations section.
 
 # Recommendations {#recommendations}
 
-Based on the findings above ({{findings}}), the DNS@IETF small team
+Based on the findings above ({{findings}}), the DNS@IETF team
 extrapolated information from discussions to derive a set of suitable
 recommendations that the IESG ADs should consider:
 
@@ -243,7 +243,7 @@ recommendations that the IESG ADs should consider:
     articulate the problem space and proposed solution before
     consideration.
   - DNSDISPATCH may decline to provide a recommendation for documents.
-    This would include documents not within scope of the IETF or were
+    This would include documents not within scope of the IETF or that were
     not sufficiently mature to understand the problem or solution
     space, for example.
   - Chairs of the DNSDISPATCH WG need to be strict in managing,
@@ -299,7 +299,7 @@ recommendations that the IESG ADs should consider:
 
 ## Example Dispatch Scenarios
 
-The DNS@IETF small team recognized that some examples might be helpful
+The DNS@IETF team recognized that some examples might be helpful
 in better understanding how the envisioned DNSDISPATCH WG might
 process incoming work.  As such, we offer the following three example
 scenarios that highlight how dispatch workflows might happen.
@@ -356,9 +356,8 @@ None
 --- back
 
 # Acknowledgments
-{:numbered="false"}
 
-Wes greatly thanks the small team members (Lars-Johan Liman and Joe
+Wes greatly thanks the team members (Lars-Johan Liman and Joe
 Abley) he corralled into helping him consume all of the review
 content, and for the insights they brought to the discussion about
 this problem space.
@@ -368,7 +367,6 @@ and we greatly appreciate everyone's time, energy and desire to help
 the IETF be as efficient as possible in the DNS space.
 
 # Original project announcement {#announcement}
-{:numbered="false"}
 
 The following text is the announcement about this opinion collection
 project that was sent to various DNS IETF lists on 2025-10-06 by
