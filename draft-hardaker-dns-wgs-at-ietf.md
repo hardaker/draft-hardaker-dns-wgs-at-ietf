@@ -43,11 +43,12 @@ informative:
 There has been an increasing level of discussion within the IETF about
 the best Working Group (WG) structures for handling the wide array of
 DNS work being conducted within the IETF.  As part of community
-consultation, a team coordinated by Wes Hardaker was asked to gather
-information from the community at large through e-mail, hallway
-discussions, and meetings and create a small team to discuss potential
-structural changes to be shared with the community.  This document is
-the result of that effort.
+consultation, a small team was asked to gather information from the
+community at large through e-mail, hallway discussions, and meetings
+and create a small team to discuss potential structural changes to be
+shared with the community.  This document aggregates the results of
+those engagements and crafts some recommendations about potential
+futures of DNS WG structures based on that feedback feedback.
 
 The outcome of the consultation is retained for historic reference.
 
