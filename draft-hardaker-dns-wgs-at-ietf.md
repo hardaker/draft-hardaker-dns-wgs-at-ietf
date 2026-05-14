@@ -89,7 +89,7 @@ the future.
 
 ## Working Group Names Used In This Document
 
-The team uses a few new WG names below, but recognize that both these
+The team uses a few new WG names below, but recognizes that both these
 recommendations and these not-yet-existing WG names are subject to
 change and thus should be considered placeholders.  It is up to the
 IESG and the community to decide what WGs and their names should be
@@ -116,7 +116,7 @@ document.
 ## Requirements language
 
 Although the document does not specify a protocol, the {{BCP14}} is used
-to stress importance of some recommendations and for better clarity.
+to stress the importance of some recommendations and for better clarity.
 
 # Findings {#findings}
 
@@ -178,7 +178,7 @@ recommendations section.
   - Requiring running code before document publication had generally
     more agreement, but opinions varied about whether this was
     required for all types of documents.
-  - Based on this, we believe each WG will need to make their own
+  - Based on this, we believe each WG will need to make its own
     decision on this matter.
 - Where to develop BCP documentation is an open question.
   - Some believe operational WGs like DNS-OARC should drive BCP development.
@@ -233,7 +233,7 @@ recommendations that the IESG ADs should consider:
     entirely over a mailing list.  Only the more complex or difficult
     cases should require interim or, worst case, in-person meeting
     time. Ideally, in-person meetings should be rare.
-  - A significant portion of submissions to DNSDISPTACH can likely be
+  - A significant portion of submissions to DNSDISPATCH can likely be
     handled quickly and efficiently.
   - DNSDISPATCH can recommend dispatching work to any areas of the
     IETF, including but not limited to DNSPROT, DNSDEP, AD-sponsored,
@@ -272,7 +272,7 @@ recommendations that the IESG ADs should consider:
     WG.
   - After a dispatch recommendation, new work proponents are encouraged
     to follow the recommendation and approach the relevant WG chairs,
-    AD, ISE, etc with a follow-on request (including but not limited
+    AD, ISE, etc. with a follow-on request (including but not limited
     to adoption requests).
   - The chairs of the DNSDISPATCH WG should work closely with the
     chairs of the other WGs.  They may need to work together for
@@ -367,7 +367,7 @@ opinions on this subject and we greatly appreciate everyone's time,
 energy and desire to help the IETF be as efficient as possible in the
 DNS space.
 
-# Original project announcement {#announcement}
+# Original Project Announcement {#announcement}
 
 The following text is the announcement about this opinion collection
 project that was sent to various DNS IETF lists on 2025-10-06 by
