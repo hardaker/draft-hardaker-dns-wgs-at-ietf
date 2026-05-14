@@ -219,10 +219,9 @@ recommendations that the IESG ADs should consider:
   - Documentation about protocol semantics should progress in DNSPROT.
 - Create a new DNSDEP (DNS Deployment) WG for working on protocol
   deployment and operational concerns.
-  - This WG should have a fairly wide charter that tasks it with
-    work that doesn’t require special processing rules, needs
-    algorithms or other simple IANA actions, or are BCPs that document
-    existing behaviors.
+  - This WG’s charter should be wide enough to cover work that avoids
+    special processing rules, involves only simple IANA actions or
+    algorithms, and consists of BCPs documenting existing behaviors.
   - Work should include guidance documents about "How you use the
     protocol".  Examples such as algorithm rollover guidance, BCPs, or
     split horizon considerations.
@@ -288,12 +287,12 @@ recommendations that the IESG ADs should consider:
     may not.
 - Documents may occasionally (hopefully rarely) need to move after
   being dispatched when the problem or solution scope changes during
-  its development and refinement.
+  their development and refinement.
   - For example, problems that become large may need to move to an
     entirely new WG.
   - Sometimes, however, the dispatch and adoption location decision
-    might have been wrong, but might as well stay in the current
-    WG.
+    might have been wrong, but might as well stay in the WG that
+    initially adopted the document after dispatch.
   - The AD(s) and WG chairs will need to handle this (rare)
     problem on a case-by-case basis.
 
