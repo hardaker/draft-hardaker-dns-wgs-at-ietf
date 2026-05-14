@@ -312,7 +312,8 @@ scenarios that highlight how dispatch workflows might happen.
    their opinion the best DNS WG for this document would be
    DNSDEP. Maxwell then approaches the DNSDEP chairs by sending a
    message to the chairs that includes a mailing list archive link to
-   the DNSDISPATCH recommendation. The chairs review and decide that
+   the DNSDISPATCH recommendation. The DNSDEP chairs review the
+   request and also decide that
    this is a good candidate document for DNSDEP and send a request for
    comment to the DNSDEP mailing list.
 
