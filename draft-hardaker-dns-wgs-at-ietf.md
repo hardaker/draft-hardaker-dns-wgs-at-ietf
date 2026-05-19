@@ -1,7 +1,7 @@
 ---
 title: "Community considerations on DNS WG structures at IETF"
 abbrev: "Community considerations on DNS WGs"
-category: historic
+category: info
 
 docname: draft-hardaker-dns-wgs-at-ietf-latest
 submissiontype: IETF
