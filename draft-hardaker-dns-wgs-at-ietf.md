@@ -85,7 +85,11 @@ opinions ({{noagreement}}).
 
 This document is published for historical reference and also to
 provide a stable reference for future assessment of the DNS work in
-the future.
+the future.  The DNS is a key enabler used at various layers and
+technologies that span most of IETF work areas. As such, logistic
+arrangements about how to conduct DNS activities within the IETF
+should not be restricted to a specific area but should be widely
+disseminated within the IETF and beyond.
 
 ## Working Group Names Used In This Document
 
