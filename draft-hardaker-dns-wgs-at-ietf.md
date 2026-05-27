@@ -117,11 +117,6 @@ document.
   WG includes all of the tasks described above in the
   DNSPROT, DNSDEP and DNSDISPATCH WGs.
 
-## Requirements language
-
-Although the document does not specify a protocol, the {{BCP14}} is used
-to stress the importance of some recommendations and for better clarity.
-
 # Findings {#findings}
 
 The team found some clear points within the collected opinions.
